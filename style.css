@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Portfolio Styles */
+.portofolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portofolio-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.portofolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portofolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Hobi Styles */
+.hobi-foto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.hobi-foto-grid figure {
+    margin: 0;
+}
+
+.hobi-foto-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobi-foto-grid figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
